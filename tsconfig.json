@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    // Version de JavaScript cible
+    "target": "ES2020",
+    
+    // Système de modules
+    "module": "commonjs",
+    
+    // Dossiers de sortie et d'entrée
+    "outDir": "./dist",
+    "rootDir": "./src",
+    
+    // Activation des vérifications strictes
+    "strict": true,
+    
+    // Support des imports/exports modernes
+    "esModuleInterop": true,
+    
+    // Autres options utiles
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    
+    // Support du débogage
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "tests"]
+}
